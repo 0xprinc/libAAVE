@@ -25,3 +25,6 @@ The Holder can change the following two fields related to the NFT:
 - [ ] Make the specific example NFT contracts for monitoring the DeFi Protocols
 - [ ] Deploying on mainnet
 
+<br>
+target : 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2 <br>
+getUserAccountData(address user) => (uint256, uint256, uint256, uint256, uint256, uint256)
