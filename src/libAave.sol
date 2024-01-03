@@ -4,7 +4,7 @@ pragma solidity ^0.8.18;
 import "openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
 import {Base64} from "./Base64.sol";
 
-contract Tracker is ERC721, Base64 {
+contract l is ERC721, Base64 {
 
     mapping(uint256 => info) public desc;
     address constant TARGET = 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2; // pool.sol
